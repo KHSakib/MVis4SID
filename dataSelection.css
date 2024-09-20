@@ -1,0 +1,19 @@
+/* Base Button Style (Orange Theme) */
+button {
+  background-color: #b4adab; /* Orange color */
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 8px 4px;
+  cursor: pointer;
+  border-radius: 2px; /* Rounded corners */
+}
+
+#selectedDataset {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
