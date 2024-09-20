@@ -709,10 +709,10 @@ window.onload = function () {
     }
     if (datasetName === "online-stress") {
       selectData = "online-stress";
-      fetchRedditData("suicidewatch", 30);
+      fetchRedditData("suicidewatch", 50);
     } else if (datasetName === "online-suicide") {
       selectData = "online-suicide";
-      fetchRedditData("stress", 30);
+      fetchRedditData("stress", 50);
     }
 
     // Clear the dataset name from localStorage to prevent repeated actions
