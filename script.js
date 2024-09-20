@@ -185,20 +185,20 @@ const csvData = `Model,Accuracy,Precision,Recall,Auc
                      Kneighbors,76.00,92.86,54.54,79.5`;
 
 const csvData2 = `Model,Accuracy,Precision,Recall,Auc
-                    BERT,14.00,70.00,69.63,84.6
-                    LSTM,16.00,75.00,85.11,74.7
+                    BERT,74.00,70.00,69.63,84.6
+                    LSTM,66.40,75.00,85.11,74.7
                     BiLSTM,64.00,69.23,64.23,64.00
                      
                     RF,76.00,80.00,66.67,74.7
                      SVM,76.00,75.00,75.00,76.00
                      GaussianNB,72.00,70.6,85.71,66.2
                      LR,72.00,92.86,68.42,72.8
-                     Kneighbors,76.00,92.86,54.54,79.5`;
+                     Kneighbors,71.55,92.86,54.54,79.5`;
 
 const onlineStressDataset = `Model,Accuracy,Precision,Recall,Auc
                     BERT,94.00,70.00,69.63,84.6
                     LSTM,46.00,75.00,85.11,74.7
-                    BiLSTM,10.00,69.23,64.23,64.00
+                    BiLSTM,67.91,69.23,64.23,64.00
                      
                     RF,36.00,80.00,66.67,74.7
                      SVM,95.00,75.00,75.00,76.00
@@ -207,11 +207,11 @@ const onlineStressDataset = `Model,Accuracy,Precision,Recall,Auc
                      Kneighbors,76.00,92.86,54.54,79.5`;
 
 const onlineSuicideDataset = `Model,Accuracy,Precision,Recall,Auc
-                    BERT,14.00,90.00,19.63,84.6
+                    BERT,88.20,90.00,19.63,84.6
                     LSTM,76.00,45.00,85.11,74.7
-                    BiLSTM,10.00,69.23,64.23,64.00
+                    BiLSTM,73.87,69.23,64.23,64.00
                      
-                    RF,36.00,80.00,66.67,74.7
+                    RF,79.85,80.00,66.67,74.7
                      SVM,65.00,75.00,65.00,76.00
                      GaussianNB,78.00,70.6,85.71,66.2
                      LR,81.00,92.86,68.42,72.8
